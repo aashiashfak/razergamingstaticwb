@@ -1,0 +1,727 @@
+body{
+    margin: 0%;
+}
+#header{
+    display: flex;
+    position:sticky;
+    top: 0px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60px;
+    background-color:black  
+}
+.header-in{
+    width: 114px;
+    height: 100%;
+ 
+    border: 0.5px;
+}
+#logo{
+    width: 36px;
+    margin-left: 48px;
+    margin-top: 10px;
+        
+}
+.header-text-link{
+    text-decoration: none;
+}
+.header-text{
+    margin-left: 1;
+    font-weight: lighter;
+    color: #888;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-top: 19px;
+    font-family:RazerF5,
+        Helvetica Neue,
+        Arial,
+        Noto Sans,
+        sans-serif;     
+}
+.header-text:hover{
+    color: #fff;
+}
+.icon{
+    width: 33px;
+    font-weight: 900;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+#product-and-service{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color:#222;
+    justify-content: space-evenly;
+}
+.product-link{
+    text-decoration: none;
+}
+.product-text{
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.product-text:hover{
+    color: #44d62c;
+}
+#varients{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:#222;
+    height: 90px;
+    border-bottom: 1.7px solid;
+    border-color: #44d62c;
+}
+.varients-in{
+    width: 95px;
+    height: 97%;
+}
+.varient-img1{
+    margin-left: 13px;
+}
+.varient-img{
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+.varient-text{
+    font-weight: lighter;
+    color: #fff;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+.varient-text-1{
+    font-weight: lighter;
+    color: #F5B21D;;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -7px;
+
+}
+.varient-text:hover{
+   color: #44d62c;
+}
+#headbar-4{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    background-color: #555;   
+}
+#headbar-4-in{
+    margin-top: 1px;
+    width: 100%;
+    height: 40px;
+
+}
+#headbar-4-para{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 13px;
+    font-size: 14px;
+    color: #fff;
+}
+#headbar-4-link{
+    text-decoration: none;
+    color: #fff;
+}
+#headbar-4-link:hover{
+    text-decoration: underline;
+}
+.class-img1st{
+    width: 100%;
+    height: 460px;
+    margin: 0px;
+}
+.img1st{
+    width: 100%;
+}
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 419px;
+    align-items: center;
+    background-color: #000000;
+    padding-top: 28px;
+}
+.intro-text-in{
+    width: 75%;
+    height: 55%;
+}
+.intro-text-head{
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 23px;
+    font-weight: lighter;
+}
+.intro-big-text{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 65px;
+    font-weight: bolder;
+    margin: 0px;
+    color: #44d62c;;
+}
+.intro-text-description{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 30px;
+    color: #9a9a9a;
+}
+#windows-reference{
+
+    display: flex;
+    width:284px ;
+    height: 35px;
+    background-color:#0276d3;
+    margin-top: 25px;
+}
+.windows-reference-text{
+    font-size: 14px;
+    margin: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: lighter;
+}
+.intro-text-with-background{
+    width: 100%;
+    height: 380px;
+    background-image: url('images/razer-blade16-lamborghini-blade-family_mobile_768x460.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: sans-serif;
+}
+.intro-text-2{
+    padding-top: 90px;
+    padding-left: 40px;
+}
+.intro-text-2-1{
+    color: #000000;
+    display: inline-block;
+    background-color:#44d62c;
+    padding: 5px 20px 5px 20px;
+    font-size: small;
+}
+.intro-text-2-2{
+    font-size: x-large;
+    margin-top: 3px;
+    color: #fff;
+    font-weight: normal;
+}
+.intro-text-2-3{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 30px;
+    color: #9a9a9a;
+    text-align: start;
+    margin-top: 3px;
+}
+.intro-text-2-link{
+    color: #44d62c;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.intro-text-2-link:hover{
+   text-decoration: underline;
+}
+.main-head{
+    width: 100%;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    background-color:#111;
+}
+.main-head-text{
+    margin: 0px;
+    color: #44d62c;
+    font-family: sans-serif;
+    color: #44d62c;
+    font-size: 44px;;
+}
+.main-body-content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #111;
+    padding-top:30px ;
+}
+.main-body-content-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 363px;
+    background-color: #000;
+}
+.main-body-content-img1st{
+    width: 367px;
+}
+.main-body-content-text{
+    padding-top: 20px;
+    text-align: center;
+    width: 368px;
+    height: 345px;
+    font-family: sans-serif;
+
+}
+.main-body-content-text h2{
+    margin: 0px;
+    font-weight: bold;
+    font-size: x-large;
+    color: #44d62c;
+}
+.main-body-content-text h1{
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 20px;
+    color: #9a9a9a;
+}
+.button-green1{
+    font-weight: bold;
+    display: inline-block;
+    width: 70px;
+    height: 26px;
+    font-size: 17px;
+    margin-right: 18px;
+    background-color: #44d62c;
+    border-radius: 3px;
+    border-color: #44d62c;
+    padding-top: 5px;
+}
+.main-body-content-2nd{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #111;
+}
+.main-body-content-2nd-in{
+    display: inline-block;
+    text-align: center;
+    width: 370px;
+    height: 726px;
+}
+.main-body-content-text-2nd{
+    padding-top: 20px;
+    text-align: center;
+    width: 368px;
+    height: 345px;
+    font-family: sans-serif;
+}
+.main-body-content-text-2nd h2 {
+    margin: 0px;
+    font-weight: bold;
+    font-size: x-large;
+    color: #44d62c;
+}
+.main-body-content-text-2nd h1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 20px;
+    color: #9a9a9a;
+}
+.promo-section{
+    display: flex;
+    justify-content: end;
+    text-align: left;
+}
+.aliegn-weight-promo-section-bkimg{
+    width: 60%;
+    height: 402px;
+    background-image: url(images/alanwake2featured.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.aliegn-weight-promo-section-text{
+    width: 40%;
+    height: 313px;
+    background-color:#000;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-top: 89px;
+    
+}
+.aliegn-weight-promo-section-text h4{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 2px;
+}
+.aliegn-weight-promo-section-text h2{
+    color: #999;
+    font-weight: lighter;
+    font-size:18px;
+}
+.aliegn-weight-promo-section-text h1{
+    color: #999;
+    font-weight: lighter;
+    margin-top: 27px;
+    font-size: 11px;
+}
+.blade-promo-section-bkimg{
+        width: 60%;
+        height: 403px;
+        background-image: url(images/razer-blade-studio-edition-hero-desktop-v2.jpg);
+        background-repeat: no-repeat;
+        background-size:cover ;
+}
+.blade-promo-section-text{
+        width: 40%;
+        height: 314px;
+        background-color:#000;
+        font-family: sans-serif;
+        padding-left: 20px;
+        padding-top: 89px;
+}
+.blade-promo-section-text h4{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 2px;
+}
+.blade-promo-section-text h2{
+    color: #999;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.razer-advantage{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 38px 0px 38px;
+    background-color: #111;
+}
+.razer-advantage-in{
+    display: inline-block;
+    width: 365px;
+    height: 645px;
+    background-color: #111;
+}
+.razer-advantage-img-class{
+    width:365px;
+    height: 310px;
+    box-sizing: border-box;
+}
+.razer-advantage-img{
+    width: 365px;
+    height: 310px;
+
+}
+.razer-advantage-text{
+    padding-top: 20px;
+   text-align: center;
+   font-family: sans-serif;
+}
+.razer-advantage-text h2{
+    margin: 0px;
+        font-weight: bold;
+        font-size: x-large;
+        color: #44d62c;
+
+}
+.razer-advantage-text h1{
+        font-size: 18px;
+        font-weight: lighter;
+        margin-top: 20px;
+        color: #9a9a9a;
+}
+.nividia-in{
+    padding-top: 90px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #060202;
+    padding-bottom: 40px;
+}
+.nividia-in h2{
+        font-weight: bold;
+        font-size: x-large;
+        color: white;
+}
+.nividia-in h1{
+    font-size: 18px;
+        font-weight: lighter;
+        margin : 0px 145px 25px 145px;
+        color: #9a9a9a;
+}
+.nividia-in img{
+    margin-top: 35px;
+}
+.video-promo{
+   height: 460px;
+}
+
+.video{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.made-with-blade{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000
+ 
+    
+}
+.made-with-blade-in{
+    width: 366px;
+    height:auto;
+  background-color: #000;
+  padding: 15px 2px 100px 2px;
+
+}
+.made-with-blade-text{
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+    background-color: #000;
+}
+.made-with-blade-text h1{
+    font-size: 18px;
+        font-weight: lighter;
+        margin: 0px 145px 25px 145px;
+        color: #9a9a9a;
+}
+.PRODUCE-backimg{
+width: 60%;
+    height: 402px;
+    background-image: url(images/razer-flstudio_mobile_768x460.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.creativity-head-text{
+    width: 100%;
+        height: 135px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-color: #000;
+        padding-bottom: 10px;
+}
+.add-on{
+    display: flex;
+        justify-content: space-evenly;
+        background-color: #000;
+}
+.add-on-img{
+    width: 370px;
+}
+.razer-skin-bkimg{
+       width: 60%;
+        height: 402px;
+        background-image: url(images/razer-skins-store-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.award-bkimg{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 402px;
+    background-image: url(images/razer-care-mobile_v2.webp)/*url(images/Screenshot\ 2023-12-01\ 144421.png)*/;
+    background-position: left;
+    background-color: #181d20;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.award-winning-text{
+        width: 49%;
+        height: 313px;
+        font-family: sans-serif;
+        padding-left: 20px;
+        padding-top: 89px;
+        text-align: left;
+}
+.award-winning-text h1{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 20px;
+    color: #9a9a9a;
+}
+.award-winning-text h4{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #44d62c;
+}
+.education-program{
+        width: 100%;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        padding-top: 50px ;
+        font-family: sans-serif;
+        background-color: #000;
+        padding-bottom: 20px;
+}
+.education-program h1{
+    font-size: 18px;
+        font-weight: lighter;
+        margin-top: 20px;
+        color: #9a9a9a;
+}
+.play-time{
+    width: 60%;
+    height: 402px;
+    background-image: url(images/ms-audio-banner-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.play-time-text{
+        width: 40%;
+        height: 313px;
+        background-color: #000;
+        font-family: sans-serif;
+        padding-left: 20px;
+        padding-top: 89px;    
+}
+.play-time-text h4{
+    margin: 0px;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #44d62c;
+}
+.play-time-text h2{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 20px;
+    color: #9a9a9a;
+}
+.play-time-text p{
+    font-size: 13px;
+    font-weight: lighter;
+    margin-top: 20px;
+    color: #9a9a9a;
+    font-style: italic;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000;
+}
+.parent-1st{
+    width: 75%;
+    display: flex;
+}
+ul{
+        line-height: 30px;
+        list-style-type: none;
+        font-family: sans-serif;
+        font-size: 12px;
+}
+ul a{
+    text-decoration: none;
+}
+.list{
+    display: block;
+    width: 186px;
+    height: 300px; 
+}
+.head{
+    font-weight: bold;
+}
+.social-icon{
+        width: 28px;
+     margin: 1px 96px 0px 56px;
+     cursor: pointer;
+}
+.head{
+    color: #fff;
+    font-weight: bold;
+
+}
+.child{
+    color: #9a9a9a;
+}
+.child:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.parent-2nd{
+    width: 25%;
+    text-align: end;
+    font-family: sans-serif;
+    padding-top: 6px;
+}
+.parent-2nd h2{
+        font-size: 15px;
+        margin-right: 25px;
+        font-weight: 600;
+        color: #44d62c;
+        
+}
+.parent-3rd{
+    width: 100%;
+        min-height: 64px;
+        
+        padding: 0px 55px 0px 35px;
+    }
+.bottom{
+    display: flex;
+    height: 80%;
+}   
+.bottom-text{
+    font-size: 12px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        color: #9a9a9a;
+}
+hr{
+    font-size: 0px;
+    border:  solid 1px;
+    color: #9a9a9a;
+}
+.bottom-1st{
+    width: 23%;
+    height: 100%;
+    padding-top: 11px;
+} 
+.bottom-2nd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+.bottom-2nd li{
+    display: inline;
+    padding-inline: 15px;
+}
+.bottom-2nd h1{
+    display: inline;
+    font-size: 14px;
+    color: #9a9a9a;
+}
+
+.bottom-3rd{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 37%;
+    height: 100%;
+    justify-content: end;
+}
+.bottom-3rd li{
+    display: inline;
+    padding-inline: 5px;
+}
+.bottom-3rd h1{
+    display: inline;
+        font-size: 14px;
+        color: #9a9a9a;
+}
